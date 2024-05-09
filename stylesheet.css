@@ -19,10 +19,9 @@ body {
 .container {
   max-width: 700px;
   width: 100%;
-  background: linear-gradient(135deg,  #56738c, #d3c966);
+  background: linear-gradient(135deg, #56738c, #d3c966);
   padding: 25px 30px;
   border-radius: 45px;
- 
 }
 
 .container .title {
@@ -45,9 +44,7 @@ body {
 .container form .user-details {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  
- 
+  justify-content: space-around;
 }
 
 form .user-details .input-box {
@@ -75,7 +72,7 @@ form .user-details .input-box {
 
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
-  border-color:   #228ec0;
+  border: 2px solid #228ec0;
 }
 
 form .button {
@@ -96,7 +93,7 @@ form .button input {
 }
 
 form .button input:hover {
-  background:linear-gradient(-135deg, #56738c, #d3c966);
+  background: linear-gradient(-135deg, #56738c, #d3c966);
 }
 
 @media (max-width: 584px) {
@@ -112,7 +109,5 @@ form .button input:hover {
   .container form .user-details {
     max-height: 300px;
     overflow-y: scroll;
-
   }
-
 }
