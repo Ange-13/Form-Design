@@ -94,6 +94,7 @@ form .button input {
 
 form .button input:hover {
   background: linear-gradient(-135deg, #56738c, #d3c966);
+  cursor: pointer;
 }
 
 @media (max-width: 584px) {
